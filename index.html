@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/lock.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Decodificador da Ashe</title>
+  </head>
+  <body>
+    
+    <header class="header-logo">
+      <img src="images/logo.svg"  alt="Logo da Alura"/>
+    </header>
+    
+    <main class="container">
+      
+      <section class="encrypt-text">
+        
+        <div class="input-text">
+            <textarea spellcheck="false" id="cod-input-Text" placeholder="Digite aqui o seu texto para a Ashe" cols="30" rows="10"></textarea>
+        </div>
+
+        
+        <div>
+          <div class="info">
+            <img src="images/exclamation.svg" alt="" />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          
+          <div class="btn-container">
+            <button class="btn-encrypt">Criptografar</button>
+            <button class="btn-decrypt">Descriptografar</button>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="output">
+        
+        <div class="output-items">
+          <div class="output-img">
+            <img
+              src="images/ashe.png"
+              alt="Imagem da personagem Ashe de League of Legends"
+            />
+          </div>
+          
+          <div class="output-text">
+            <textarea readonly id="output-msg" cols="30" rows="10"></textarea>
+            <button id="copy">Copiar</button>
+          </div>
+          
+          <div class="static-items">
+            <h1>Nenhuma mensagem encontrada</h1>
+            <p>
+              Ajude a Ashe a Criptografar e Descriptografar mensagens secretas.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
