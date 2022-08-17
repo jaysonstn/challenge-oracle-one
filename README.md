@@ -20,7 +20,7 @@ Esta aplicação desenvolvida com HTML5, CSS3 e JavaScript, tem a função de co
 
 
 ## Melhorias a serem implantadas
-Será realizado melhorias no layout, para uma melhor experiência do usuário.
+Será realizado melhorias no layout, para uma melhor experiência do usuário e na responsividade. 
 
 
 
