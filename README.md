@@ -1,10 +1,11 @@
 # ONE-Oracle Next Education T3
 
-## Decodificador de Texto
+## Decodificador de Texto / Decodificador da Ashe
 
 ## Sobre
 
 Esta aplicação desenvolvida com HTML5, CSS3 e JavaScript, tem a função de codificar e decodificar mensagens de texto de forma simples e simultânea. 
+Para ficar mais divertido, apliquei alguns detalhes que remetem à personagem Ashe, do game League of Legends.
 
 ## Funcionalidades
 
